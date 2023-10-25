@@ -1,0 +1,151 @@
+.header-bg {
+  background-color: #8a5d3b20;
+  background-image: url(/img/fotos/main-back.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 60rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header>a>img {
+  width: 100px;
+  height: 100px;
+}
+
+header>main {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  color: var(--cor-0);
+  display: inline-block;
+  padding: 15px 0px;
+  position: relative;
+}
+
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .header-bg {
+    height: 820px;
+  }
+
+  header>main {
+    padding-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-menu {
+    gap: 20px;
+  }
+
+  .header>a>img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .header-menu a {
+    color: var(--cor-0);
+    display: inline-block;
+    padding: 15px 0px;
+    position: relative;
+  }
+
+  .header-menu a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: var(--cor-0);
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+
+  .header-menu a:hover::after,
+  .header-menu a.ativo::after {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 10px;
+  }
+
+  header>main {
+    padding-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header>a>img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .header-menu a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 550px) {
+  .header-menu {
+    gap: 0px;
+    margin-right: 25px;
+  }
+
+  header>main {
+    padding-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header>a>img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-menu a {
+    padding:  10px;
+    font-size: 12px;
+  }
+}

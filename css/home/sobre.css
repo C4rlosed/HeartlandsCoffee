@@ -1,0 +1,84 @@
+/* sobre a Heartlands */
+.sobre-bg {
+  background-image: url(/img/fotos/back-cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sobre {
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.sobre-imagem {
+  background-image: url(/img/back_sobrenos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0 150px 0 150px;
+}
+
+.sobre-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.sobre-conteudo>.sobre-imagem>span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.sobre-conteudo>p {
+  margin-bottom: 20px;
+}
+
+.sobre-imagem a {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* Responsividade max 800px na tela */
+@media (max-width: 800px) {
+  .sobre-bg {
+    box-shadow: initial;
+  }
+
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .sobre-imagem {
+    padding: auto;
+  }
+
+  .sobre a {
+    margin-bottom: 60px;
+  }
+
+  .botao {
+    height: auto;
+    width: auto;
+    font-size: small;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

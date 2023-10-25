@@ -1,0 +1,46 @@
+/*introdução - apresentação*/
+
+.introducao-bg {
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .introducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .introducao-conteudo {
+    align-self: end;
+    padding-bottom: 200px;
+  }
+  
+  .introducao h1 {
+    margin-bottom: 32px;
+  }
+  
+  .introducao p {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsividade max 800px na tela */
+  @media (max-width: 800px) {
+    .introducao-bg {
+      height: 100%;
+    }
+    .introducao-conteudo {
+      padding-bottom: 100%;
+    }
+  
+    .introducao h1 {
+      margin-bottom: 10px;
+      font-size: 50px;
+    }
+    .introducao p{
+      font-size: 20px;
+    }
+  }
+  
+  

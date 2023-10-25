@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+h1,
+ul,
+h2,
+h3,
+h4,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
