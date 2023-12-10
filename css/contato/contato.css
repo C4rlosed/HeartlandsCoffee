@@ -1,5 +1,5 @@
 .contato-bg {
-  background-image: url(/img/back_contact.png);
+  background-image: url(../../img/back_contact.png);
   background-repeat: repeat;
   background-position: left left;
   padding-top: 10%;
@@ -19,7 +19,7 @@
 }
 
 .contato-conteudo {
-  background-image: url(/img/contact.png);
+  background-image: url(../../img/contact.png);
   background-color: var(--cor-0);
   background-size: contain;
   background-repeat: no-repeat;

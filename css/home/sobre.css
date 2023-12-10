@@ -1,6 +1,6 @@
 /* sobre a Heartlands */
 .sobre-bg {
-  background-image: url(/img/fotos/back-cafeteria.jpg);
+  background-image: url(../../img/fotos/back-cafeteria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -12,7 +12,7 @@
 }
 
 .sobre-imagem {
-  background-image: url(/img/back_sobrenos.jpg);
+  background-image: url(../../img/back_sobrenos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
